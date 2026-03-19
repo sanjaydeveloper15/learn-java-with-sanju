@@ -25,8 +25,8 @@ java test
 ## Learning Roadmap
 
 ### Phase 1 — Java Core
-- [x] Lesson 1: Basics — types, strings, operators, loops, arrays
-- [ ] Lesson 2: OOP — classes, objects, constructors
+- [x] Lesson 1: Basics — types, strings, operators, loops, arrays → [Basics/test.java](Basics/test.java)
+- [x] Lesson 2: OOP — classes, objects, constructors → [OOP/Main.java](OOP/Main.java)
 - [ ] Lesson 3: Interfaces & Abstract Classes
 - [ ] Lesson 4: Collections & Generics
 - [ ] Lesson 5: Exception Handling
