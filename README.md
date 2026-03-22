@@ -29,7 +29,7 @@ java test
 - [x] Lesson 2: OOP — classes, objects, constructors → [OOP/Main.java](OOP/Main.java)
 - [x] Lesson 3: Interfaces & Abstract Classes → [Interfaces/Main.java](Interfaces/Main.java)
 - [x] Lesson 4: Collections & Generics → [Collections_Generics/Main.java](Collections_Generics/Main.java)
-- [ ] Lesson 5: Exception Handling
+- [x] Lesson 5: Exception Handling → [Exception_Handling/Main.java](Exception_Handling/Main.java)
 - [ ] Lesson 6: Functional Java — Lambdas, Streams, Optional
 - [ ] Lesson 7: Concurrency basics
 - [ ] Lesson 8: Build tools — Maven / Gradle
