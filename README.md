@@ -28,7 +28,7 @@ java test
 - [x] Lesson 1: Basics — types, strings, operators, loops, arrays → [Basics/test.java](Basics/test.java)
 - [x] Lesson 2: OOP — classes, objects, constructors → [OOP/Main.java](OOP/Main.java)
 - [x] Lesson 3: Interfaces & Abstract Classes → [Interfaces/Main.java](Interfaces/Main.java)
-- [ ] Lesson 4: Collections & Generics
+- [x] Lesson 4: Collections & Generics → [Collections_Generics/Main.java](Collections_Generics/Main.java)
 - [ ] Lesson 5: Exception Handling
 - [ ] Lesson 6: Functional Java — Lambdas, Streams, Optional
 - [ ] Lesson 7: Concurrency basics
