@@ -30,8 +30,8 @@ java test
 - [x] Lesson 3: Interfaces & Abstract Classes → [Interfaces/Main.java](Interfaces/Main.java)
 - [x] Lesson 4: Collections & Generics → [Collections_Generics/Main.java](Collections_Generics/Main.java)
 - [x] Lesson 5: Exception Handling → [Exception_Handling/Main.java](Exception_Handling/Main.java)
-- [ ] Lesson 6: Functional Java — Lambdas, Streams, Optional
-- [ ] Lesson 7: Concurrency basics
+- [x] Lesson 6: Functional Java — Lambdas, Streams, Optional → [Functional_Java/Main.java](Functional_Java/Main.java)
+- [x] Lesson 7: Concurrency basics → [Concurrency/Main.java](Concurrency/Main.java)
 - [ ] Lesson 8: Build tools — Maven / Gradle
 
 ### Phase 2 — Spring Boot
