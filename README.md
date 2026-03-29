@@ -32,7 +32,7 @@ java test
 - [x] Lesson 5: Exception Handling → [Exception_Handling/Main.java](Exception_Handling/Main.java)
 - [x] Lesson 6: Functional Java — Lambdas, Streams, Optional → [Functional_Java/Main.java](Functional_Java/Main.java)
 - [x] Lesson 7: Concurrency basics → [Concurrency/Main.java](Concurrency/Main.java)
-- [ ] Lesson 8: Build tools — Maven / Gradle
+- [x] Lesson 8: Build tools — Maven / Gradle → [Build_Tools/](Build_Tools/)
 
 ### Phase 2 — Spring Boot
 - [ ] Spring Core — IoC, Dependency Injection, Beans

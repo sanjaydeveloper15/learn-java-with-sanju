@@ -1,0 +1,45 @@
+// build.gradle — Gradle equivalent of pom.xml
+// Groovy DSL (concise vs Maven's verbose XML)
+
+plugins {
+    id 'java'                          // enable Java compilation
+    id 'application'                   // adds 'run' task to execute the app
+}
+
+// Project identity — same as Maven's groupId / artifactId / version
+group   = 'com.sanjay'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+// Where to find dependencies — like npm registry
+repositories {
+    mavenCentral()                     // https://search.maven.org (main registry)
+}
+
+// Dependencies — like package.json dependencies
+dependencies {
+
+    // 'implementation' = compile + runtime  (like npm dependency)
+    implementation 'com.google.guava:guava:32.1.3-jre'
+
+    // 'testImplementation' = test only  (like npm devDependency)
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+
+    // 'runtimeOnly' = not needed to compile, needed to run
+    runtimeOnly 'org.postgresql:postgresql:42.6.0'
+
+}
+
+// Entry point for 'gradle run'
+application {
+    mainClass = 'Main'
+}
+
+// Use JUnit Platform for running tests
+test {
+    useJUnitPlatform()
+}
